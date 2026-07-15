@@ -1,0 +1,27 @@
+{
+  "name": "genpark-clawteams-ecom-orchestrator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - ClawTeams multi-agent coordinator for e-commerce tasks.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "ecom",
+    "agents",
+    "clawteams"
+  ],
+  "inputs": {
+    "goal_description": {
+      "type": "string"
+    },
+    "sub_agents": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "delegated_plan": {
+      "type": "object"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
